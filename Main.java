@@ -10,7 +10,7 @@ public class Main extends Application
   }
   public void start(Stage stage)
   {
-    Scene scene = new Scene(new FileExplorer.FileExplorerBuilder().build().getScrollPane(), 400, 300);
+    Scene scene = new Scene(new FileExplorer.FileExplorerBuilder().build(), 400, 300);
 
     stage.setTitle("File Explorer");
     stage.setScene(scene);

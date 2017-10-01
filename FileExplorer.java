@@ -1,13 +1,9 @@
 import javafx.scene.control.ScrollPane;
-public class FileExplorer
+public class FileExplorer extends ScrollPane
 {
 	private FileExplorer()
 	{
-
-	}
-	public ScrollPane getScrollPane()
-	{
-		return new ScrollPane();
+		super();
 	}
 	public static class FileExplorerBuilder
 	{
