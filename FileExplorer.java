@@ -11,6 +11,7 @@ public class FileExplorer extends ScrollPane
 		super();
 		this.theme = theme;
 		this.setContent(content);
+		content.add(new FileList("C:\\"), theme); //for testing
 	}
 	public Theme getTheme()
 	{
